@@ -1,0 +1,51 @@
+DL is a sub domain of AI and ML that is inspired by the structure of a human brain.
+Logical structures called neural network.
+The fundamental unit of each neural network is called "perceptron".
+
+TYPES OF NEURAL NETWORKS-
+1. MULTI LAYERED PERCEPTRON- used in supervised problems
+2. ANN -> ARTIFICIAL NEURAL NETWORK 
+3. CNN -> CONVOLUTIONAL NEURAL NETWORK -> works with image data.
+4. RNN -> RECURRENT NEURAL NETWORK -> works with speech and textual data. (lstm)
+5. GAN -> GENERATIVE ADVERSARIAL NETWORK -> can generate texts, images etc.
+6. Auto-encoders -> compression withour loosing quality
+
+
+WHY DO WE NEED DL?
+1. In applications like chemist drugs, automated cars etc.
+2. High performance. 
+
+TECHNICAL DEFINITION-
+Representation learning - automatically extracting the features ( unlike in ml we have to do feature engineering to provide features to the model).
+So in DL there is no need for feature extraction separately.
+Neural network has layered structure. Initial layers extract the primitive features and the deep layers extract the complex features.
+
+Less data -> ML performs better
+more data -> DL performs well
+training time in DL is more than ML.
+less prediction time in DL.
+explanability and interpretability in ML is high.
+DL need gpu based hardware which is expensive.
+
+microsoft coco
+Video - youtube 8M
+
+IMPORTANT LIBRARIES / FRAMEOWORKs :-
+1. Tensorflow by google
+2. Pytorch by facebook
+* Using tensorflow is very difficult 
+user -> keras (frontend) -> tensorflow 
+this is done to make is more accessible to more people.
+
+Inorder to convert pytorch code to tensorflow and vice-versa we can us AUTOML.
+
+SOME OFTENLY USED ARCHITECTURES
+image classification - RESNET.
+text classification - BERT
+image segmentation - UNet
+image translation - pix2pix
+object detection - YOLO
+speech generation - WaveNET
+
+
+
